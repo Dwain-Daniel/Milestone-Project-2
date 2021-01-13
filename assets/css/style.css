@@ -1,0 +1,21 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+.page-title{
+    font-family: "Gloria Hallelujah";
+    font-weight: normal;
+    text-align: center;
+    font-size: 60px;
+}
+.game-info {
+    font-family: "Gloria Hallelujah";
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: lawngreen;
+}
