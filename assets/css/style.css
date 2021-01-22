@@ -18,6 +18,7 @@ body{
     grid-gap: 10px;
     margin: 50px;
     justify-content: center;
+    perspective: 500px;
 }
 
 .page-title{
@@ -51,6 +52,7 @@ body{
      display: flex;
      justify-content: center;
      align-items: center;
+     border: 2px solid black;
  }
 
  .card-back:hover .eyes{
@@ -70,11 +72,13 @@ body{
      justify-content: center;
      align-items: center;
      backface-visibility: hidden;
+     transition: transform 300ms ease-in-out;
  }
 
  .card-front{
      transform: rotateX(180deg);
-     background-color: pink;
+     background-color: yellow;
+     border: 2px solid green;
  }
 
  .eyes{
@@ -98,6 +102,5 @@ body{
 .card.visible .card-front{
     transform: rotateY(0);  
 }
-
  
 
